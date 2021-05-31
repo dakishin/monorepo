@@ -2,5 +2,10 @@
   "name": "Monorepo",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/dakishin/monorepo.git",
+  "author": "Dmitriy Akishin <dakishin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "myLib": "^1.0.0"
+  }
 }

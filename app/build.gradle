@@ -36,7 +36,11 @@ android {
 }
 
 dependencies {
-    implementation project(':mylibrary')
+    implementation('org.gradle.cpp-samples:utilities') {
+//        version {
+//            branch = 'master'
+//        }
+    }
 
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
