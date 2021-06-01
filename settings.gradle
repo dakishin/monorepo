@@ -1,12 +1,11 @@
 rootProject.name = "Monorepo"
 include ':app'
+include ':mylibrary'
 
 sourceControl {
     gitRepository("https://github.com/dakishin/monorepo.git") {
         producesModule("org.gradle.cpp-samples:utilities")
         rootDir = "mylibrary"
-        plugins {
-            id 'com.android.library'
-        }
+
     }
 }
