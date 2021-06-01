@@ -21,6 +21,8 @@ apply plugin: 'kotlin-android'
 //    id 'kotlin-android'
 //}
 
+group = "org.gradle.cpp-samples"
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
