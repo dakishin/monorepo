@@ -4,5 +4,10 @@ include ':app'
 sourceControl {
     gitRepository("https://github.com/dakishin/monorepo.git") {
         producesModule("org.gradle.cpp-samples:utilities")
+        rootDir = "mylibrary"
+        plugins {
+            id 'com.android.library'
+            id 'kotlin-android'
+        }
     }
 }

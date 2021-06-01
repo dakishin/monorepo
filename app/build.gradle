@@ -36,10 +36,10 @@ android {
 }
 
 dependencies {
-    implementation('org.gradle.cpp-samples:utilities') {
-//        version {
-//            branch = 'master'
-//        }
+    implementation('org.gradle.cpp-samples:utilities:1.0') {
+        version {
+            branch = 'master'
+        }
     }
 
 
