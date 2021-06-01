@@ -4,7 +4,7 @@ include ':app'
 
 sourceControl {
     gitRepository("https://github.com/dakishin/monorepo.git") {
-        producesModule("org.gradle.cpp-samples:utilities")
+        producesModule("org.gradle.cpp-samples:mylibrary")
         rootDir = "mylibrary"
     }
 }
