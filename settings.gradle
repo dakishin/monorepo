@@ -1,6 +1,6 @@
 rootProject.name = "Monorepo"
 include ':app'
-include ':mylibrary'
+//include ':mylibrary'
 
 sourceControl {
     gitRepository("https://github.com/dakishin/monorepo.git") {
