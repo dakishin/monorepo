@@ -18,12 +18,12 @@ android {
 
 
 dependencies {
-    implementation ("org.gradle.cpp-samples:utilities:1.0") {
-        version {
-            branch = "master"
-        }
-    }
-//    implementation(project(":mylibrary"))
+//    implementation ("org.gradle.cpp-samples:utilities:1.0") {
+//        version {
+//            branch = "master"
+//        }
+//    }
+    implementation(project(":mylibrary"))
 
 
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
