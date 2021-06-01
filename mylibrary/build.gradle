@@ -1,25 +1,6 @@
-buildscript {
-    ext.kotlin_version = "1.5.0"
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:4.2.1"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
-    }
-}
-
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-//plugins {
-//    id 'com.android.library'
-//    id 'kotlin-android'
-//}
 
 group = "org.gradle.cpp-samples"
 
